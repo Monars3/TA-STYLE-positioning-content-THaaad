@@ -1,7 +1,4 @@
-body {
-    width: 80%;
-    margin: auto;
-}
+/*
 
 
 h1{
@@ -13,6 +10,7 @@ nav {
     display: inline-block;
     text-align: center;
     margin-right: 16px;
+    vertical-align: middle;
 }
 
 a{
@@ -42,7 +40,54 @@ img {
     margin-left: 15px;
 }
 footer {
-    /* text-align: center; */
+     text-align: center; 
     margin: 25px;
     margin-top: 50px;
+}*/
+body{
+    line-height: 1.5;
+}
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(109, 177, 236);
+
+}
+h1 {
+    width: 180px;
+}
+.heading , .nav {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+h2{
+    margin-top: 0px;
+}
+.nav {
+    width: calc(100% - 180px);
+    font-size: 20px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.image {
+    width: 100%;
+}
+.col {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+main {
+    width: 1200px;
+    margin: 28px auto;
+    
+}
+footer {
+    background-color: aqua;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
 }
