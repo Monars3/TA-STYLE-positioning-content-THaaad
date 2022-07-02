@@ -62,12 +62,16 @@ body {
     text-align: center;
     margin: 0px auto;
     padding: 32px;
+    height: 72px;
+    line-height: 72px;
 }
 .container h1 {
     font-size: 20px;
     font-weight: bold;
     float: left;
     color: #fff;
+    /* height: 32px; */
+    /* line-height: 32px; */
 }
 .container .nav {
     float: right;
@@ -250,8 +254,17 @@ hr {
 }
 .footer {
     max-width: 1150px;
-    margin: 32px auto;
+    margin: 52px auto;
     color: gray;
+    /* padding: 48px 0; */
     /* display: inline-block; */
+}
+.footer-copy {
+    float: left;
+}
+.footer-logo {
+    float: right;
+    color: rgb(61, 104, 171);
+    
 }
 
